@@ -5,4 +5,16 @@ angular.module('TestApp')
 
 function ctrlFunc() {
     this.message = 'Hello';
+
+    this.people = [
+        {
+            name: 'John Doe',
+        },
+        {
+            name: 'Jane Doe'
+        },
+        {
+            name: 'Jim Doe'
+        }
+    ]
 }
